@@ -1,5 +1,7 @@
 SetResolution(11, 10, 50, true)
 
+SetColor(1, 1, 1)
+
 DrawPixel(5, 1)
 DrawPixel(4, 2)
 DrawPixel(5, 2)
@@ -26,3 +28,4 @@ DrawPixel(7, 5)
 DrawPixel(8, 5)
 DrawPixel(9, 5)
 DrawPixel(2, 5)
+

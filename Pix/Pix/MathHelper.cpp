@@ -47,3 +47,18 @@ Vector3 MathHelper::Cross(const Vector3& v, const Vector3& w)
 			 v.z * w.x - v.x * w.z,
 			 v.x * w.y - v.y * w.x };
 }
+
+float MathHelper::Lerp(const float& a, const float& b, float t)
+{
+	return a + (b - a) * t;
+}
+
+Vector2 MathHelper::Lerp(const Vector2& v, const Vector2& w, float t)
+{
+	return { Lerp(v.x, w.x, t), Lerp(v.y, w.y, t) };
+}
+
+Vector3 MathHelper::Lerp(const Vector3& v, const Vector3& w, float t)
+{
+	return { Lerp(v.x, w.x, t), Lerp(v.y, w.y, t), Lerp(v.z, w.z, t) };
+}
