@@ -1,0 +1,735 @@
+SetResolution(26, 22, 30, true)
+
+SetColor(.8, .8, .8)
+DrawPixel(0, 0)
+DrawPixel(1, 0)
+DrawPixel(2, 0)
+DrawPixel(3, 0)
+DrawPixel(7, 0)
+DrawPixel(8, 0)
+DrawPixel(9, 0)
+DrawPixel(10, 0)
+DrawPixel(11, 0)
+DrawPixel(12, 0)
+DrawPixel(13, 0)
+DrawPixel(14, 0)
+DrawPixel(15, 0)
+DrawPixel(16, 0)
+DrawPixel(17, 0)
+DrawPixel(18, 0)
+DrawPixel(19, 0)
+DrawPixel(20, 0)
+DrawPixel(21, 0)
+DrawPixel(22, 0)
+DrawPixel(23, 0)
+DrawPixel(24, 0)
+DrawPixel(25, 0)
+
+DrawPixel(0, 1)
+DrawPixel(1, 1)
+DrawPixel(2, 1)
+DrawPixel(8, 1)
+DrawPixel(9, 1)
+DrawPixel(10, 1)
+DrawPixel(11, 1)
+DrawPixel(12, 1)
+DrawPixel(13, 1)
+DrawPixel(14, 1)
+DrawPixel(15, 1)
+DrawPixel(16, 1)
+DrawPixel(17, 1)
+DrawPixel(18, 1)
+DrawPixel(19, 1)
+DrawPixel(20, 1)
+DrawPixel(21, 1)
+DrawPixel(22, 1)
+DrawPixel(23, 1)
+DrawPixel(24, 1)
+DrawPixel(25, 1)
+
+DrawPixel(0, 2)
+DrawPixel(1, 2)
+DrawPixel(2, 2)
+DrawPixel(3, 2)
+DrawPixel(9, 2)
+DrawPixel(10, 2)
+DrawPixel(11, 2)
+DrawPixel(12, 2)
+DrawPixel(13, 2)
+DrawPixel(14, 2)
+DrawPixel(15, 2)
+DrawPixel(16, 2)
+DrawPixel(17, 2)
+DrawPixel(18, 2)
+DrawPixel(24, 2)
+DrawPixel(25, 2)
+
+DrawPixel(0, 3)
+DrawPixel(1, 3)
+DrawPixel(2, 3)
+DrawPixel(3, 3)
+DrawPixel(10, 3)
+DrawPixel(11, 3)
+DrawPixel(12, 3)
+DrawPixel(13, 3)
+DrawPixel(14, 3)
+DrawPixel(15, 3)
+DrawPixel(16, 3)
+DrawPixel(25, 3)
+
+DrawPixel(0, 4)
+DrawPixel(1, 4)
+DrawPixel(2, 4)
+DrawPixel(11, 4)
+DrawPixel(12, 4)
+DrawPixel(13, 4)
+DrawPixel(14, 4)
+DrawPixel(24, 4)
+DrawPixel(25, 4)
+
+DrawPixel(0, 5)
+DrawPixel(1, 5)
+DrawPixel(2, 5)
+DrawPixel(13, 5)
+DrawPixel(24, 5)
+DrawPixel(25, 5)
+
+DrawPixel(0, 6)
+DrawPixel(1, 6)
+DrawPixel(2, 6)
+DrawPixel(23, 6)
+DrawPixel(24, 6)
+DrawPixel(25, 6)
+
+DrawPixel(0, 7)
+DrawPixel(1, 7)
+DrawPixel(2, 7)
+DrawPixel(23, 7)
+DrawPixel(24, 7)
+DrawPixel(25, 7)
+
+DrawPixel(0, 8)
+DrawPixel(1, 8)
+DrawPixel(2, 8)
+DrawPixel(3, 8)
+DrawPixel(23, 8)
+DrawPixel(24, 8)
+DrawPixel(25, 8)
+
+DrawPixel(0, 9)
+DrawPixel(1, 9)
+DrawPixel(2, 9)
+DrawPixel(22, 9)
+DrawPixel(23, 9)
+DrawPixel(24, 9)
+DrawPixel(25, 9)
+
+DrawPixel(0, 10)
+DrawPixel(1, 10)
+DrawPixel(21, 10)
+DrawPixel(22, 10)
+DrawPixel(23, 10)
+DrawPixel(24, 10)
+DrawPixel(25, 10)
+
+DrawPixel(0, 11)
+DrawPixel(21, 11)
+DrawPixel(22, 11)
+DrawPixel(23, 11)
+DrawPixel(24, 11)
+DrawPixel(25, 11)
+
+DrawPixel(23, 12)
+DrawPixel(24, 12)
+DrawPixel(25, 12)
+
+
+DrawPixel(0, 13)
+DrawPixel(24, 13)
+DrawPixel(25, 13)
+
+DrawPixel(0, 14)
+DrawPixel(1, 14)
+DrawPixel(25, 14)
+
+DrawPixel(0, 15)
+DrawPixel(1, 15)
+DrawPixel(2, 15)
+DrawPixel(3, 15)
+
+DrawPixel(0, 16)
+DrawPixel(1, 16)
+DrawPixel(2, 16)
+DrawPixel(25, 16)
+
+DrawPixel(0, 17)
+DrawPixel(1, 17)
+DrawPixel(2, 17)
+DrawPixel(24, 17)
+DrawPixel(25, 17)
+
+DrawPixel(0, 18)
+DrawPixel(1, 18)
+DrawPixel(22, 18)
+DrawPixel(23, 18)
+DrawPixel(24, 18)
+DrawPixel(25, 18)
+
+DrawPixel(0, 19)
+DrawPixel(1, 19)
+DrawPixel(2, 19)
+DrawPixel(6, 19)
+DrawPixel(20, 19)
+DrawPixel(21, 19)
+DrawPixel(22, 19)
+DrawPixel(23, 19)
+DrawPixel(24, 19)
+DrawPixel(25, 19)
+
+DrawPixel(0, 20)
+DrawPixel(1, 20)
+DrawPixel(2, 20)
+DrawPixel(3, 20)
+DrawPixel(4, 20)
+DrawPixel(5, 20)
+DrawPixel(6, 20)
+DrawPixel(7, 20)
+DrawPixel(13, 20)
+DrawPixel(14, 20)
+DrawPixel(21, 20)
+DrawPixel(22, 20)
+DrawPixel(23, 20)
+DrawPixel(24, 20)
+DrawPixel(25, 20)
+
+DrawPixel(0, 21)
+DrawPixel(1, 21)
+DrawPixel(2, 21)
+DrawPixel(3, 21)
+DrawPixel(4, 21)
+DrawPixel(5, 21)
+DrawPixel(6, 21)
+DrawPixel(7, 21)
+DrawPixel(8, 21)
+DrawPixel(11, 21)
+DrawPixel(12, 21)
+DrawPixel(13, 21)
+DrawPixel(14, 21)
+DrawPixel(15, 21)
+DrawPixel(20, 21)
+DrawPixel(21, 21)
+DrawPixel(22, 21)
+DrawPixel(23, 21)
+DrawPixel(24, 21)
+DrawPixel(25, 21)
+
+SetColor(.1, .1, .1)
+DrawPixel(4, 0)
+DrawPixel(5, 0)
+DrawPixel(6, 0)
+
+DrawPixel(3, 1)
+DrawPixel(7, 1)
+
+DrawPixel(4, 2)
+DrawPixel(7, 2)
+DrawPixel(8, 2)
+DrawPixel(19, 2)
+DrawPixel(20, 2)
+DrawPixel(21, 2)
+DrawPixel(22, 2)
+DrawPixel(23, 2)
+
+DrawPixel(4, 3)
+DrawPixel(9, 3)
+DrawPixel(17, 3)
+DrawPixel(18, 3)
+DrawPixel(24, 3)
+
+DrawPixel(3, 4)
+DrawPixel(10, 4)
+DrawPixel(15, 4)
+DrawPixel(16, 4)
+DrawPixel(23, 4)
+
+DrawPixel(3, 5)
+DrawPixel(10, 5)
+DrawPixel(11, 5)
+DrawPixel(12, 5)
+DrawPixel(14, 5)
+DrawPixel(23, 5)
+
+DrawPixel(3, 6)
+DrawPixel(13, 6)
+DrawPixel(22, 6)
+
+DrawPixel(3, 7)
+DrawPixel(22, 7)
+
+DrawPixel(4, 8)
+DrawPixel(22, 8)
+
+DrawPixel(3, 9)
+DrawPixel(4, 9)
+DrawPixel(21, 9)
+
+DrawPixel(2, 10)
+DrawPixel(20, 10)
+
+DrawPixel(1, 11)
+DrawPixel(20, 11)
+
+DrawPixel(0, 12)
+DrawPixel(21, 12)
+DrawPixel(22, 12)
+
+DrawPixel(1, 13)
+DrawPixel(23, 13)
+
+DrawPixel(2, 14)
+DrawPixel(3, 14)
+DrawPixel(24, 14)
+
+DrawPixel(4, 15)
+DrawPixel(25, 15)
+
+DrawPixel(3, 16)
+DrawPixel(24, 16)
+
+DrawPixel(3, 17)
+DrawPixel(22, 17)
+DrawPixel(23, 17)
+
+DrawPixel(2, 18)
+DrawPixel(6, 18)
+DrawPixel(19, 18)
+DrawPixel(20, 18)
+DrawPixel(21, 18)
+
+DrawPixel(3, 19)
+DrawPixel(4, 19)
+DrawPixel(5, 19)
+DrawPixel(7, 19)
+DrawPixel(13, 19)
+DrawPixel(14, 19)
+DrawPixel(19, 19)
+
+DrawPixel(8, 20)
+DrawPixel(11, 20)
+DrawPixel(12, 20)
+DrawPixel(15, 20)
+DrawPixel(20, 20)
+
+DrawPixel(9, 21)
+DrawPixel(10, 21)
+DrawPixel(16, 21)
+DrawPixel(17, 21)
+DrawPixel(18, 21)
+DrawPixel(19, 21)
+
+SetColor(0.9, 0.45, 0.25)
+DrawPixel(4, 1)
+DrawPixel(5, 1)
+
+DrawPixel(5, 2)
+DrawPixel(6, 2)
+
+DrawPixel(5, 3)
+DrawPixel(7, 3)
+DrawPixel(8, 3)
+DrawPixel(19, 3)
+DrawPixel(20, 3)
+DrawPixel(21, 3)
+DrawPixel(22, 3)
+DrawPixel(23, 3)
+
+DrawPixel(5, 4)
+DrawPixel(6, 4)
+DrawPixel(9, 4)
+DrawPixel(17, 4)
+DrawPixel(18, 4)
+DrawPixel(19, 4)
+DrawPixel(20, 4)
+DrawPixel(21, 4)
+DrawPixel(22, 4)
+
+DrawPixel(4, 5)
+DrawPixel(5, 5)
+DrawPixel(7, 5)
+DrawPixel(8, 5)
+DrawPixel(15, 5)
+DrawPixel(16, 5)
+DrawPixel(18, 5)
+DrawPixel(20, 5)
+DrawPixel(21, 5)
+DrawPixel(22, 5)
+
+DrawPixel(4, 6)
+DrawPixel(8, 6)
+DrawPixel(14, 6)
+DrawPixel(17, 6)
+DrawPixel(18, 6)
+DrawPixel(20, 6)
+DrawPixel(21, 6)
+
+DrawPixel(4, 7)
+DrawPixel(7, 7)
+DrawPixel(15, 7)
+DrawPixel(19, 7)
+DrawPixel(20, 7)
+DrawPixel(21, 7)
+
+DrawPixel(15, 8)
+DrawPixel(16, 8)
+
+DrawPixel(20, 9)
+
+DrawPixel(6, 10)
+DrawPixel(14, 10)
+DrawPixel(15, 10)
+
+DrawPixel(2, 11)
+DrawPixel(15, 11)
+
+DrawPixel(1, 12)
+DrawPixel(2, 12)
+DrawPixel(12, 12)
+DrawPixel(13, 12)
+
+DrawPixel(2, 13)
+DrawPixel(3, 13)
+DrawPixel(22, 13)
+
+DrawPixel(4, 14)
+DrawPixel(23, 14)
+
+DrawPixel(23, 15)
+DrawPixel(24, 15)
+
+DrawPixel(4, 16)
+DrawPixel(22, 16)
+DrawPixel(23, 16)
+
+DrawPixel(4, 17)
+DrawPixel(5, 17)
+DrawPixel(21, 17)
+
+DrawPixel(3, 18)
+DrawPixel(4, 18)
+
+DrawPixel(15, 19)
+DrawPixel(18, 19)
+
+DrawPixel(17, 20)
+DrawPixel(18, 20)
+DrawPixel(19, 20)
+
+SetColor(0.6, 0.3, 0.18)
+DrawPixel(6, 1)
+
+DrawPixel(4, 4)
+DrawPixel(8, 4)
+
+DrawPixel(9, 5)
+
+DrawPixel(7, 6)
+DrawPixel(15, 6)
+
+DrawPixel(21, 8)
+
+DrawPixel(15, 9)
+DrawPixel(16, 9)
+
+DrawPixel(3, 10)
+DrawPixel(16, 10)
+DrawPixel(19, 10)
+
+DrawPixel(13, 11)
+DrawPixel(14, 11)
+
+DrawPixel(11, 12)
+
+DrawPixel(5, 18)
+DrawPixel(18, 18)
+
+DrawPixel(16, 20)
+
+SetColor(0.9.5, 0.65, 0.15)
+DrawPixel(5, 6)
+
+DrawPixel(5, 7)
+DrawPixel(17, 7)
+DrawPixel(18, 7)
+
+DrawPixel(5, 8)
+DrawPixel(6, 8)
+DrawPixel(18, 8)
+DrawPixel(19, 8)
+
+DrawPixel(6, 9)
+DrawPixel(18, 9)
+DrawPixel(19, 9)
+
+DrawPixel(4, 10)
+DrawPixel(18, 10)
+
+DrawPixel(3, 11)
+DrawPixel(5, 11)
+
+DrawPixel(3, 12)
+DrawPixel(5, 12)
+DrawPixel(19, 12)
+DrawPixel(20, 12)
+
+DrawPixel(4, 13)
+DrawPixel(5, 13)
+DrawPixel(18, 13)
+DrawPixel(19, 13)
+DrawPixel(20, 13)
+
+DrawPixel(19, 14)
+DrawPixel(20, 14)
+DrawPixel(22, 14)
+
+DrawPixel(18, 15)
+DrawPixel(19, 15)
+DrawPixel(20, 15)
+DrawPixel(21, 15)
+DrawPixel(22, 15)
+
+DrawPixel(18, 16)
+DrawPixel(19, 16)
+DrawPixel(21, 16)
+
+DrawPixel(17, 17)
+DrawPixel(19, 17)
+DrawPixel(20, 17)
+
+DrawPixel(16, 18)
+DrawPixel(17, 18)
+
+DrawPixel(16, 19)
+
+SetColor(0.33, 0.33, 0.33)
+DrawPixel(6, 3)
+
+DrawPixel(7, 4)
+
+DrawPixel(6, 5)
+DrawPixel(17, 5)
+
+DrawPixel(6, 6)
+DrawPixel(16, 6)
+
+DrawPixel(6, 7)
+DrawPixel(16, 7)
+
+DrawPixel(7, 8)
+DrawPixel(14, 8)
+DrawPixel(17, 8)
+
+DrawPixel(5, 9)
+DrawPixel(7, 9)
+DrawPixel(14, 9)
+DrawPixel(17, 9)
+
+DrawPixel(5, 10)
+DrawPixel(7, 10)
+DrawPixel(13, 10)
+DrawPixel(17, 10)
+
+DrawPixel(4, 11)
+DrawPixel(6, 11)
+DrawPixel(8, 11)
+DrawPixel(10, 11)
+DrawPixel(12, 11)
+DrawPixel(16, 11)
+DrawPixel(18, 11)
+DrawPixel(19, 11)
+
+DrawPixel(7, 12)
+DrawPixel(9, 12)
+DrawPixel(14, 12)
+DrawPixel(15, 12)
+DrawPixel(18, 12)
+
+DrawPixel(6, 13)
+DrawPixel(12, 13)
+DrawPixel(13, 13)
+DrawPixel(17, 13)
+
+DrawPixel(5, 14)
+DrawPixel(7, 14)
+DrawPixel(18, 14)
+DrawPixel(21, 14)
+
+DrawPixel(5, 15)
+DrawPixel(12, 15)
+DrawPixel(13, 15)
+DrawPixel(17, 15)
+
+DrawPixel(5, 16)
+DrawPixel(8, 16)
+DrawPixel(17, 16)
+
+DrawPixel(6, 17)
+DrawPixel(16, 17)
+DrawPixel(18, 17)
+
+DrawPixel(7, 18)
+DrawPixel(14, 18)
+DrawPixel(15, 18)
+
+DrawPixel(8, 19)
+DrawPixel(11, 19)
+
+SetColor(.43, .43, .43)
+DrawPixel(19, 5)
+
+DrawPixel(9, 6)
+DrawPixel(19, 6)
+
+DrawPixel(8, 7)
+DrawPixel(14, 7)
+
+DrawPixel(20, 8)
+
+DrawPixel(14, 13)
+
+DrawPixel(8, 17)
+DrawPixel(12, 17)
+DrawPixel(11, 18)
+
+DrawPixel(10, 20)
+
+SetColor(.55, .55, .55)
+DrawPixel(10, 6)
+DrawPixel(11, 6)
+DrawPixel(12, 6)
+
+DrawPixel(9, 7)
+DrawPixel(10, 7)
+DrawPixel(11, 7)
+DrawPixel(12, 7)
+DrawPixel(13, 7)
+
+DrawPixel(9, 8)
+DrawPixel(10, 8)
+DrawPixel(11, 8)
+DrawPixel(12, 8)
+DrawPixel(13, 8)
+
+DrawPixel(9, 9)
+DrawPixel(10, 9)
+DrawPixel(11, 9)
+DrawPixel(13, 9)
+
+DrawPixel(9, 10)
+DrawPixel(10, 10)
+
+DrawPixel(9, 11)
+
+DrawPixel(4, 12)
+DrawPixel(6, 12)
+
+DrawPixel(21, 13)
+
+DrawPixel(16, 15)
+
+DrawPixel(10, 16)
+DrawPixel(20, 16)
+
+DrawPixel(9, 17)
+DrawPixel(10, 17)
+DrawPixel(11, 17)
+
+DrawPixel(8, 18)
+DrawPixel(9, 18)
+DrawPixel(10, 18)
+
+DrawPixel(9, 19)
+DrawPixel(10, 19)
+DrawPixel(17, 19)
+
+DrawPixel(9, 20)
+
+SetColor(.7, .7, .7)
+DrawPixel(13, 14)
+
+SetColor(.85, .85, .85)
+DrawPixel(7, 11)
+DrawPixel(17, 11)
+
+DrawPixel(8, 12)
+DrawPixel(10, 12)
+DrawPixel(16, 12)
+DrawPixel(17, 12)
+
+DrawPixel(7, 13)
+DrawPixel(8, 13)
+DrawPixel(9, 13)
+DrawPixel(10, 13)
+DrawPixel(11, 13)
+DrawPixel(15, 13)
+DrawPixel(16, 13)
+
+DrawPixel(6, 14)
+DrawPixel(8, 14)
+DrawPixel(9, 14)
+DrawPixel(10, 14)
+DrawPixel(11, 14)
+DrawPixel(12, 14)
+DrawPixel(14, 14)
+DrawPixel(15, 14)
+DrawPixel(16, 14)
+DrawPixel(17, 14)
+
+DrawPixel(7, 15)
+DrawPixel(9, 15)
+DrawPixel(10, 15)
+DrawPixel(11, 15)
+DrawPixel(14, 15)
+DrawPixel(15, 15)
+
+DrawPixel(9, 16)
+DrawPixel(11, 16)
+DrawPixel(12, 16)
+DrawPixel(14, 16)
+DrawPixel(16, 16)
+
+SetColor(.45, .7, .9)
+DrawPixel(6, 15)
+DrawPixel(8, 15)
+
+DrawPixel(7, 16)
+DrawPixel(13, 16)
+
+DrawPixel(7, 17)
+DrawPixel(13, 17)
+DrawPixel(14, 17)
+
+DrawPixel(12, 18)
+DrawPixel(13, 18)
+
+SetColor(.25, .4, .55)
+DrawPixel(6, 16)
+DrawPixel(15, 16)
+
+DrawPixel(15, 17)
+
+DrawPixel(12, 19)
+
+SetColor(.1, .5, .65)
+DrawPixel(8, 8)
+
+DrawPixel(8, 10)
+DrawPixel(12, 10)
+
+DrawPixel(11, 11)
+
+SetColor(.25, .76, .99)
+DrawPixel(8, 9)
+DrawPixel(12, 9)
+
+DrawPixel(11, 10)
+
