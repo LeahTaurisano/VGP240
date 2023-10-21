@@ -1,1 +1,9 @@
-﻿
+﻿  CmdDrawPixel.cpp
+  CmdSetColor.cpp
+  CmdSetFillMode.cpp
+  PrimitivesManager.cpp
+  Rasterizer.cpp
+C:\Users\leaht\source\repos\VGP240\Pix\Pix\Rasterizer.cpp(26,39): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\leaht\source\repos\VGP240\Pix\Pix\Rasterizer.cpp(26,25): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  Generating Code...
+  Pix.vcxproj -> C:\Users\leaht\source\repos\VGP240\Pix\x64\Debug\Pix.exe

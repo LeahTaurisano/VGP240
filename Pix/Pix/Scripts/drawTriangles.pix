@@ -1,11 +1,13 @@
 SetResolution(50, 50, 10, true)
 
 BeginDraw(triangle)
-SetFillMode(solid)
+SetFillMode(wireframe)
 
 Vertex(2, 2, 1, 1, 0)
 Vertex( 40, 2, 0, 0, 1)
 Vertex( 20, 30, 0, 1, 0)
 
 EndDraw()
+
+
 
