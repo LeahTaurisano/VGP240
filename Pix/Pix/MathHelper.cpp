@@ -62,3 +62,19 @@ Vector3 MathHelper::Lerp(const Vector3& v, const Vector3& w, float t)
 {
 	return { Lerp(v.x, w.x, t), Lerp(v.y, w.y, t), Lerp(v.z, w.z, t) };
 }
+
+bool MathHelper::CheckEqual(float a, float b)
+{
+	return fabs(a - b) < 0.001f;
+}
+
+bool MathHelper::CheckEqual(const Vector2& a, const Vector2& b)
+{
+	return CheckEqual(a.x, b.x) && CheckEqual(a.y, b.y);
+}
+
+bool MathHelper::CheckEqual(const Vector3& a, const Vector3& b)
+{
+	return CheckEqual(a.x, b.x) && CheckEqual(a.y, b.y) && CheckEqual(a.z, b.z);
+}
+

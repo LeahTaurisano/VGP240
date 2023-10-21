@@ -840,15 +840,175 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\windows.device
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\windows.devices.enumeration.h(2045,58): warning C5256: 'ABI::Windows::Devices::Enumeration::DeviceUnpairingResultStatus': a non-defining declaration of an enumeration with a fixed underlying type is only permitted as a standalone declaration
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\windows.devices.enumeration.h(2055,50): warning C5256: 'ABI::Windows::Devices::Enumeration::DeviceWatcherStatus': a non-defining declaration of an enumeration with a fixed underlying type is only permitted as a standalone declaration
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\windows.devices.enumeration.h(2065,36): warning C5256: 'ABI::Windows::Devices::Enumeration::Panel': a non-defining declaration of an enumeration with a fixed underlying type is only permitted as a standalone declaration
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xapofx.h(34,53): warning C5264: '_GUID_f5e01117_d6c4_485a_a3f5_695196f3dbfa': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\AsyncInfo.h(85,52): warning C5264: 'Error': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\AsyncInfo.h(84,52): warning C5264: 'Canceled': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xaudio2.h(71,59): warning C5264: '_GUID_60d8dac8_5aa1_4e8e_b597_2f5e2883d484': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\roapi.h(188,21): warning C5264: '_GUID_00000000_0000_0000_0000_000000000000': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xapofx.h(40,57): warning C5264: '_GUID_7d9aca56_cb68_4807_b632_b137352e8596': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\AsyncInfo.h(82,52): warning C5264: 'Started': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\wrl\implements.h(294,121): warning C5264: '_GUID_af86e2e0_b12d_4c6a_9c5a_d7aa65101e90': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xaudio2fx.h(31,65): warning C5264: '_GUID_4fc3b166_972a_40cf_bc37_7db03db2fba3': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2037,34): warning C5264: 'std::placeholders::_4': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2035,34): warning C5264: 'std::placeholders::_2': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2036,34): warning C5264: 'std::placeholders::_3': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2034,34): warning C5264: 'std::placeholders::_1': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2051,35): warning C5264: 'std::placeholders::_18': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2038,34): warning C5264: 'std::placeholders::_5': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2052,35): warning C5264: 'std::placeholders::_19': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2047,35): warning C5264: 'std::placeholders::_14': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2040,34): warning C5264: 'std::placeholders::_7': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2046,35): warning C5264: 'std::placeholders::_13': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2045,35): warning C5264: 'std::placeholders::_12': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2042,34): warning C5264: 'std::placeholders::_9': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2041,34): warning C5264: 'std::placeholders::_8': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2049,35): warning C5264: 'std::placeholders::_16': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2044,35): warning C5264: 'std::placeholders::_11': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2053,35): warning C5264: 'std::placeholders::_20': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2043,35): warning C5264: 'std::placeholders::_10': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2048,35): warning C5264: 'std::placeholders::_15': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2039,34): warning C5264: 'std::placeholders::_6': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\functional(2050,35): warning C5264: 'std::placeholders::_17': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(127,39): warning C5264: 'std::allocator_arg': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(75,32): warning C5264: 'std::chrono::_Is_duration_v<std::chrono::seconds>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(75,32): warning C5264: 'std::chrono::_Is_duration_v<std::chrono::duration<double,std::ratio<1,1>>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(35,32): warning C5264: 'std::chrono::treat_as_floating_point_v<long double>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(35,32): warning C5264: 'std::chrono::treat_as_floating_point_v<unsigned __int64>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(35,32): warning C5264: 'std::chrono::treat_as_floating_point_v<std::chrono::duration<__int64,std::nano>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_chrono.hpp(35,32): warning C5264: 'std::chrono::treat_as_floating_point_v<std::chrono::duration<int,std::ratio<3600,1>>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mutex(534,37): warning C5264: 'std::_Init_once_init_failed': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(44,28): warning C5264: 'std::is_error_code_enum_v<int>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(44,28): warning C5264: 'std::is_error_code_enum_v<std::error_condition>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(44,28): warning C5264: 'std::is_error_code_enum_v<std::error_code>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error(44,28): warning C5264: 'std::is_error_code_enum_v<std::system_error>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mutex(121,36): warning C5264: 'std::defer_lock': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtr1common(74,28): warning C5264: 'std::is_same_v<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<DirectX::IVoiceNotify *>>>,std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<DirectX::IVoiceNotify *>>>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtr1common(74,28): warning C5264: 'std::is_same_v<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>': 'const' variable is not used
+          with
+          [
+              _Ty=std::pair<const unsigned int,IXAudio2SourceVoice *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtr1common(74,28): warning C5264: 'std::is_same_v<std::allocator<std::pair<const unsigned int,IXAudio2SourceVoice *>>,std::_Hash_vec<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>>>': 'const' variable is not used
+          with
+          [
+              _Ty=std::pair<const unsigned int,IXAudio2SourceVoice *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(812,28): warning C5264: 'std::?$_Is_iterator_v@$RBAAB@$$Yvoid_t@std@@$std:?$iterator_traits@$RBAAB@:iterator_category:<char*,void>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(812,28): warning C5264: 'std::?$_Is_iterator_v@$RBAAB@$$Yvoid_t@std@@$std:?$iterator_traits@$RBAAB@:iterator_category:<wchar_t*,void>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const __int64&,std::chrono::system_clock::rep>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const int&,int>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const std::chrono::duration<int,std::ratio<3600,1>>&,__int64>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const std::chrono::duration<__int64,std::nano>&,double>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const _ToRep&,double>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const unsigned __int64&,int>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const long double&,double>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(339,28): warning C5264: 'std::is_convertible_v<const unsigned __int64&,__int64>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::negation<std::is_array<void>>,std::is_convertible<void *,_Ty *>,std::is_convertible<DirectX::handle_closer,DirectX::handle_closer>>': 'const' variable is not used
+          with
+          [
+              _Ty=void
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::negation<std::is_array<void>>,std::is_assignable<DirectX::handle_closer &,DirectX::handle_closer>,std::is_convertible<void *,_Ty *>>': 'const' variable is not used
+          with
+          [
+              _Ty=void
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<const unsigned int,_Ty1 &>,std::is_constructible<IXAudio2SourceVoice *,_Ty2 &>>': 'const' variable is not used
+          with
+          [
+              _Ty1=unsigned int,
+              _Ty2=IXAudio2SourceVoice *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_copy_constructible<const unsigned int>,std::is_copy_constructible<IXAudio2SourceVoice *>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::negation<std::is_array<DirectX::AudioEngine::Impl>>,std::is_convertible<DirectX::AudioEngine::Impl *,_Ty *>,std::is_convertible<std::default_delete<_Ty>,std::default_delete<_Ty>>>': 'const' variable is not used
+          with
+          [
+              _Ty=DirectX::AudioEngine::Impl
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::negation<std::is_array<DirectX::AudioEngine::Impl>>,std::is_assignable<std::default_delete<DirectX::AudioEngine::Impl> &,std::default_delete<DirectX::AudioEngine::Impl>>,std::is_convertible<DirectX::AudioEngine::Impl *,_Ty *>>': 'const' variable is not used
+          with
+          [
+              _Ty=DirectX::AudioEngine::Impl
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<unsigned int,_Ty1 &>,std::is_constructible<IXAudio2SourceVoice *,_Ty2 &>>': 'const' variable is not used
+          with
+          [
+              _Ty1=unsigned int,
+              _Ty2=IXAudio2SourceVoice *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_copy_constructible<unsigned int>,std::is_copy_constructible<IXAudio2SourceVoice *>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<DirectX::IVoiceNotify *>>>,std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<DirectX::IVoiceNotify *>>>>,std::is_constructible<bool,const _Ty2 &>>': 'const' variable is not used
+          with
+          [
+              _Ty2=bool
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_copy_constructible<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<DirectX::IVoiceNotify *>>>>,std::is_copy_constructible<bool>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *&>,std::is_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *&>>': 'const' variable is not used
+          with
+          [
+              _Alloc=std::allocator<DirectX::IVoiceNotify *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_copy_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *>,std::is_copy_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *>>': 'const' variable is not used
+          with
+          [
+              _Alloc=std::allocator<DirectX::IVoiceNotify *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *&>,std::is_constructible<bool,bool>>': 'const' variable is not used
+          with
+          [
+              _Alloc=std::allocator<DirectX::IVoiceNotify *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_copy_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *>,std::is_copy_constructible<bool>>': 'const' variable is not used
+          with
+          [
+              _Alloc=std::allocator<DirectX::IVoiceNotify *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(64,28): warning C5264: 'std::conjunction_v<std::is_constructible<std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<DirectX::IVoiceNotify *,std::_Default_allocator_traits<_Alloc>::void_pointer> *>,std::is_constructible<bool,bool>>': 'const' variable is not used
+          with
+          [
+              _Alloc=std::allocator<DirectX::IVoiceNotify *>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(667,28): warning C5264: 'std::is_move_constructible_v<std::default_delete<DirectX::AudioEngine::Impl>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(667,28): warning C5264: 'std::is_move_constructible_v<DirectX::handle_closer>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(1153,30): warning C5264: 'std::extent_v<DirectX::AudioEngine::Impl,0>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(229,28): warning C5264: 'std::is_array_v<DirectX::AudioEngine::Impl>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(114,45): warning C5264: 'std::piecewise_construct': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits(1197,16): warning C5264: 'std::_Is_standard_unsigned_integer<std::_Vbase>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(132,31): warning C5264: 'std::ignore': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mutex(122,37): warning C5264: 'std::try_to_lock': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mutex(120,36): warning C5264: 'std::adopt_lock': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(716,28): warning C5264: 'std::is_move_assignable_v<std::default_delete<DirectX::AudioEngine::Impl>>': 'const' variable is not used
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(716,28): warning C5264: 'std::is_move_assignable_v<DirectX::handle_closer>': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(284,22): warning C5264: 'DirectX::XM_CACHE_LINE_SIZE': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\wrl\module.h(313,68): warning C5264: '_GUID_00000035_0000_0000_c000_000000000046': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xapofx.h(43,55): warning C5264: '_GUID_5039d740_f736_449a_84d3_a56202557b87': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\xaudio2fx.h(34,60): warning C5264: '_GUID_c2633b16_471b_4498_b8c5_4f0959e2ec09': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt\AsyncInfo.h(83,52): warning C5264: 'Completed': 'const' variable is not used
   DynamicSoundEffectInstance.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   SoundCommon.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   SoundEffect.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   SoundEffectInstance.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   SoundStreamInstance.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   WaveBank.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   WaveBankReader.cpp
-C:\Users\leaht\source\repos\VGP240\Pix\X\External\DirectXTK\Audio\WaveBankReader.cpp(35,22): warning C5264: '`anonymous-namespace'::MAX_DATA_SEGMENT_SIZE': 'const' variable is not used
-C:\Users\leaht\source\repos\VGP240\Pix\X\External\DirectXTK\Audio\WaveBankReader.cpp(30,22): warning C5264: '`anonymous-namespace'::DVD_BLOCK_SIZE': 'const' variable is not used
+C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\X\External\DirectXTK\Audio\WaveBankReader.cpp(35,22): warning C5264: '`anonymous-namespace'::MAX_DATA_SEGMENT_SIZE': 'const' variable is not used
+C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\X\External\DirectXTK\Audio\WaveBankReader.cpp(30,22): warning C5264: '`anonymous-namespace'::DVD_BLOCK_SIZE': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(189,28): warning C5264: 'X3DAudioDefault_DirectionalCone': 'const' variable is not used
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\x3daudio.h(165,44): warning C5264: 'X3DAudioDefault_LinearCurve': 'const' variable is not used
   WAVFileReader.cpp
   Generating Code...
-  DirectXTKAudio_Desktop_2019_Win8.vcxproj -> C:\Users\leaht\source\repos\VGP240\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
+  DirectXTKAudio_Desktop_2019_Win8.vcxproj -> C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib

@@ -23,4 +23,8 @@ public:
 	static float Lerp(const float& a, const float& b, float t);
 	static Vector2 Lerp(const Vector2& v, const Vector2& w, float t);
 	static Vector3 Lerp(const Vector3& v, const Vector3& w, float t);
+
+	static bool CheckEqual(float a, float b);
+	static bool CheckEqual(const Vector2& a, const Vector2& b);
+	static bool CheckEqual(const Vector3& a, const Vector3& b);
 };
