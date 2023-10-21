@@ -1,0 +1,29 @@
+SetResolution(50, 50, 10, true)
+
+SetViewport(10, 10, 30, 30)
+ShowViewport(true)
+SetClipping(false)
+
+BeginDraw(point)
+Vertex(5, 20, 1, 1, 0)
+Vertex( 35, 15, 0, 0, 1)
+EndDraw()
+
+BeginDraw(line)
+Vertex(4, 30, 1, 1, 0)
+Vertex( 20, 35, 0, 0, 1)
+EndDraw()
+
+BeginDraw(triangle)
+SetFillMode(solid)
+Vertex(5, 5, 1, 1, 0)
+Vertex( 45, 32, 0, 0, 1)
+Vertex( 30, 45, 0, 1, 0)
+EndDraw()
+
+BeginDraw(point)
+Vertex(10, 10, 1, 0, 0)
+Vertex( 40, 40, 1, 0, 0)
+EndDraw()
+
+
