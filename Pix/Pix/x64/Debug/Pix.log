@@ -1,8 +1,6 @@
 ﻿  Clipper.cpp
   CmdSetClipping.cpp
-  CommandDictionary.cpp
   Graphics.cpp
   PrimitivesManager.cpp
   Generating Code...
-     Creating library C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\x64\Debug\Pix.lib and object C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\x64\Debug\Pix.exp
-  Pix.vcxproj -> C:\Users\LCV2242924\Desktop\InClass\VGP240\Pix\x64\Debug\Pix.exe
+  Pix.vcxproj -> C:\Users\leaht\source\repos\VGP240\Pix\x64\Debug\Pix.exe

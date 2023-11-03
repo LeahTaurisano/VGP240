@@ -14,6 +14,11 @@ Vertex(4, 30, 1, 1, 0)
 Vertex( 20, 35, 0, 0, 1)
 EndDraw()
 
+BeginDraw(line)
+Vertex(18, 8, 1, 1, 0)
+Vertex( 45, 25, 0, 0, 1)
+EndDraw()
+
 BeginDraw(triangle)
 SetFillMode(solid)
 Vertex(5, 5, 1, 1, 0)
@@ -25,5 +30,8 @@ BeginDraw(point)
 Vertex(10, 10, 1, 0, 0)
 Vertex( 40, 40, 1, 0, 0)
 EndDraw()
+
+
+
 
 
