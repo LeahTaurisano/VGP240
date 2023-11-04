@@ -1,6 +1,16 @@
 ﻿  Clipper.cpp
+  CmdAddVertex.cpp
+  CmdBeginDraw.cpp
+  CmdDrawPixel.cpp
+  CmdEndDraw.cpp
   CmdSetClipping.cpp
+  CmdSetColor.cpp
+  CmdSetFillMode.cpp
   Graphics.cpp
+  MathHelper.cpp
   PrimitivesManager.cpp
+  Rasterizer.cpp
+C:\Users\LCV2242924\Documents\GitHub\VGP240\Pix\Pix\Rasterizer.cpp(27,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\LCV2242924\Documents\GitHub\VGP240\Pix\Pix\Rasterizer.cpp(27,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-  Pix.vcxproj -> C:\Users\leaht\source\repos\VGP240\Pix\x64\Debug\Pix.exe
+  Pix.vcxproj -> C:\Users\LCV2242924\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe
