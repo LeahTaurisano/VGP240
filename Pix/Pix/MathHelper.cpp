@@ -34,7 +34,7 @@ Matrix4 Matrix4::RotationY(float rad)
 		0.0f, 0.0f, 0.0f, 1.0f
 	);
 }
-Matrix4 RotationZ(float rad)
+Matrix4 Matrix4::RotationZ(float rad)
 {
 	const float s = sinf(rad);
 	const float c = cosf(rad);
