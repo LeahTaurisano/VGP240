@@ -20,6 +20,33 @@ namespace
 			  hw,   hh, 0.0f, 1.0f
 		);
 	}
+
+	bool DrawTriangle(CullMode mode, const Vector3& a, const Vector3& b, const Vector3& c)
+	{
+		if (mode == CullMode::None)
+		{
+			return true;
+		}
+
+		const Vector3 v0 = b - a;
+		const Vector3 v1 = c - a;
+		Vector3 facingNormal = MathHelper::Cross(v0, v1);
+
+		switch (mode)
+		{
+		case CullMode::Back:
+		{
+			return (facingNormal.z <= 0.0f);
+		}
+		case CullMode::Front:
+		{
+			return (facingNormal.z >= 0.0f);
+		}
+		default:
+			break;
+		}
+		return true;
+	}
 }
 
 PrimitivesManager::PrimitivesManager()
@@ -34,6 +61,16 @@ PrimitivesManager* PrimitivesManager::Get()
 {
 	static PrimitivesManager sInstance;
 	return &sInstance;
+}
+
+void PrimitivesManager::OnNewFrame()
+{
+	mCullMode = CullMode::Back;
+}
+
+void PrimitivesManager::SetCullMode(CullMode mode)
+{
+	mCullMode = mode;
 }
 
 bool PrimitivesManager::BeginDraw(Topology topology, bool applyTransform)
@@ -55,18 +92,6 @@ bool PrimitivesManager::EndDraw()
 	if (!mDrawBegin)
 	{
 		return false;
-	}
-	if (mApplyTransform)
-	{
-		const Matrix4 matWorld = MatrixStack::Get()->GetTransform();
-		const Matrix4 matView = Camera::Get()->GetViewMatrix();
-		const Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
-		const Matrix4 matScreen = GetScreenTransform();
-		const Matrix4 matFinal = matWorld * matView * matProj * matScreen;
-		for (size_t i = 0; i < mVertexBuffer.size(); ++i)
-		{
-			mVertexBuffer[i].Position = MathHelper::TransformCoord(mVertexBuffer[i].Position, matFinal);
-		}
 	}
 
 	switch (mTopology)
@@ -95,9 +120,31 @@ bool PrimitivesManager::EndDraw()
 	break;
 	case Topology::Triangle:
 	{
+		const Matrix4 matWorld = MatrixStack::Get()->GetTransform();
+		const Matrix4 matView = Camera::Get()->GetViewMatrix();
+		const Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
+		const Matrix4 matScreen = GetScreenTransform();
+		const Matrix4 matNDC = matWorld * matView * matProj;
+		const Matrix4 matFinal = matScreen;
+
 		for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
 		{
 			std::vector<Vertex> triangle = { mVertexBuffer[i - 2], mVertexBuffer[i - 1], mVertexBuffer[i] };
+			if (mApplyTransform)
+			{
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matNDC);
+				}
+				if (!DrawTriangle(mCullMode, triangle[0].Position, triangle[1].Position, triangle[2].Position))
+				{
+					continue;
+				}
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matFinal);
+				}
+			}
 			if (Clipper::Get()->ClipTriangle(triangle))
 			{
 				for (size_t t = 2; t < triangle.size(); ++t)

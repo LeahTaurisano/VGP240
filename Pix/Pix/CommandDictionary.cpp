@@ -22,6 +22,8 @@
 #include "CmdSetCameraFar.h"
 #include "CmdSetCameraNear.h"
 #include "CmdSetCameraFOV.h"
+#include "CmdSetCullMode.h"
+#include "CmdEnableDepth.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -39,6 +41,8 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdShowViewport>();
 	RegisterCommand<CmdSetColor>();
 	RegisterCommand<CmdSetClipping>();
+	RegisterCommand<CmdSetCullMode>();
+	RegisterCommand<CmdEnableDepth>();
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();

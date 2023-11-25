@@ -3,6 +3,7 @@ C:\Users\leaht\source\repos\VGP240\Pix\Pix\Clipper.cpp;C:\Users\leaht\source\rep
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdAddVertex.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdAddVertex.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdBeginDraw.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdDrawPixel.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdEnableDepth.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdEnableDepth.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdEndDraw.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdPopMatrix.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdPopMatrix.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdPushRotationX.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdPushRotationX.obj
@@ -17,12 +18,14 @@ C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetCameraNear.cpp;C:\Users\leaht\s
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetCameraPosition.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetClipping.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetClipping.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetColor.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
+C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetCullMode.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetCullMode.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetFillMode.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetResolution.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdSetViewport.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdSetViewport.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdShowViewport.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdShowViewport.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CmdVarFloat.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\CommandDictionary.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
+C:\Users\leaht\source\repos\VGP240\Pix\Pix\DepthBuffer.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\DepthBuffer.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\Graphics.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\Graphics.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\MathHelper.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\MathHelper.obj
 C:\Users\leaht\source\repos\VGP240\Pix\Pix\MatrixStack.cpp;C:\Users\leaht\source\repos\VGP240\Pix\Pix\x64\Debug\MatrixStack.obj
