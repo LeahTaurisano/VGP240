@@ -3,6 +3,7 @@
 #include "Clipper.h"
 #include "MatrixStack.h"
 #include "Camera.h"
+#include "LightManager.h"
 
 extern float gResolutionX;
 extern float gResolutionY;
@@ -21,6 +22,13 @@ namespace
 		);
 	}
 
+	Vector3 GetFacingNormal(const Vector3& a, const Vector3& b, const Vector3& c)
+	{
+		const Vector3 v0 = b - a;
+		const Vector3 v1 = c - a;
+		return MathHelper::Cross(v0, v1);
+	}
+
 	bool DrawTriangle(CullMode mode, const Vector3& a, const Vector3& b, const Vector3& c)
 	{
 		if (mode == CullMode::None)
@@ -28,9 +36,7 @@ namespace
 			return true;
 		}
 
-		const Vector3 v0 = b - a;
-		const Vector3 v1 = c - a;
-		Vector3 facingNormal = MathHelper::Cross(v0, v1);
+		Vector3 facingNormal = GetFacingNormal(a, b, c);
 
 		switch (mode)
 		{
@@ -124,25 +130,41 @@ bool PrimitivesManager::EndDraw()
 		const Matrix4 matView = Camera::Get()->GetViewMatrix();
 		const Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
 		const Matrix4 matScreen = GetScreenTransform();
-		const Matrix4 matNDC = matWorld * matView * matProj;
-		const Matrix4 matFinal = matScreen;
+		const Matrix4 matNDC = matView * matProj;
 
 		for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
 		{
 			std::vector<Vertex> triangle = { mVertexBuffer[i - 2], mVertexBuffer[i - 1], mVertexBuffer[i] };
 			if (mApplyTransform)
 			{
+				Vector3 facingNormal = GetFacingNormal(triangle[0].Position, triangle[1].Position, triangle[2].Position);
+				// move the position to world space
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matWorld);
+					triangle[t].Normal = MathHelper::TransfromNormal(facingNormal, matWorld);
+				}
+				//calculate lighting
+				LightManager* lm = LightManager::Get();
+				for (size_t t = 0; t < triangle.size(); ++t)
+				{
+					Vertex& v = triangle[t];
+					v.Color *= lm->ComputeLightColor(v.Position, v.Normal);
+				}
+
+				// move to NDC space
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
 					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matNDC);
 				}
+
 				if (!DrawTriangle(mCullMode, triangle[0].Position, triangle[1].Position, triangle[2].Position))
 				{
 					continue;
 				}
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
-					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matFinal);
+					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matScreen);
 				}
 			}
 			if (Clipper::Get()->ClipTriangle(triangle))
