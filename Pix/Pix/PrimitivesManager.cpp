@@ -137,19 +137,33 @@ bool PrimitivesManager::EndDraw()
 			std::vector<Vertex> triangle = { mVertexBuffer[i - 2], mVertexBuffer[i - 1], mVertexBuffer[i] };
 			if (mApplyTransform)
 			{
-				Vector3 facingNormal = GetFacingNormal(triangle[0].Position, triangle[1].Position, triangle[2].Position);
+				if (MathHelper::CheckEqual(MathHelper::MagnitudeSquared(triangle[0].Normal), 0.0f))
+				{
+					Vector3 facingNormal = GetFacingNormal(triangle[0].Position, triangle[1].Position, triangle[2].Position);
+					for (size_t t = 0; t < triangle.size(); ++t)
+					{
+						triangle[t].Normal = facingNormal;
+					}
+				}
+
 				// move the position to world space
 				for (size_t t = 0; t < triangle.size(); ++t)
 				{
 					triangle[t].Position = MathHelper::TransformCoord(triangle[t].Position, matWorld);
-					triangle[t].Normal = MathHelper::TransfromNormal(facingNormal, matWorld);
+					triangle[t].Normal = MathHelper::TransfromNormal(triangle[t].Normal, matWorld);
+					triangle[t].WorldPosition = triangle[t].Position;
+					triangle[t].WorldNormal = triangle[t].Normal;
 				}
-				//calculate lighting
-				LightManager* lm = LightManager::Get();
-				for (size_t t = 0; t < triangle.size(); ++t)
+
+				if (Rasterizer::Get()->GetShadeMode() != ShadeMode::Phong)
 				{
-					Vertex& v = triangle[t];
-					v.Color *= lm->ComputeLightColor(v.Position, v.Normal);
+					//calculate lighting
+					LightManager* lm = LightManager::Get();
+					for (size_t t = 0; t < triangle.size(); ++t)
+					{
+						Vertex& v = triangle[t];
+						v.Color *= lm->ComputeLightColor(v.WorldPosition, v.WorldNormal);
+					}
 				}
 
 				// move to NDC space
