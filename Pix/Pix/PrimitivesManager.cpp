@@ -72,11 +72,17 @@ PrimitivesManager* PrimitivesManager::Get()
 void PrimitivesManager::OnNewFrame()
 {
 	mCullMode = CullMode::Back;
+	mCorrectUV = false;
 }
 
 void PrimitivesManager::SetCullMode(CullMode mode)
 {
 	mCullMode = mode;
+}
+
+void PrimitivesManager::SetCorrectUV(bool correct)
+{
+	mCorrectUV = correct;
 }
 
 bool PrimitivesManager::BeginDraw(Topology topology, bool applyTransform)
@@ -154,8 +160,21 @@ bool PrimitivesManager::EndDraw()
 					triangle[t].WorldPosition = triangle[t].Position;
 					triangle[t].WorldNormal = triangle[t].Normal;
 				}
-
-				if (Rasterizer::Get()->GetShadeMode() != ShadeMode::Phong)
+				if (triangle[0].Color.z < 0.0f)
+				{
+					if (mCorrectUV)
+					{
+						for (size_t t = 0; t < triangle.size(); ++t)
+						{
+							Vertex& v = triangle[t];
+							Vector3 viewPos = MathHelper::TransformCoord(triangle[t].WorldPosition, matView);
+							v.Color.x /= viewPos.z;
+							v.Color.y /= viewPos.z;
+							v.Color.w = 1.0f / viewPos.z;
+						}
+					}
+				}
+				else if (Rasterizer::Get()->GetShadeMode() != ShadeMode::Phong)
 				{
 					//calculate lighting
 					LightManager* lm = LightManager::Get();

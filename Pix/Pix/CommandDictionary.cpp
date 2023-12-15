@@ -4,6 +4,7 @@
 #include "CmdDrawPixel.h"
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
+#include "CmdVarBool.h"
 #include "CmdBeginDraw.h"
 #include "CmdAddVertex.h"
 #include "CmdEndDraw.h"
@@ -28,6 +29,8 @@
 #include "CmdMaterial.h"
 #include "CmdModel.h"
 #include "CmdSetShading.h"
+#include "CmdSetTexture.h"
+#include "CmdSetCorrectUV.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -50,6 +53,7 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand<CmdVarBool>();
 	RegisterCommand<CmdPushTranslation>();
 	RegisterCommand<CmdPushScaling>();
 	RegisterCommand<CmdPushRotationX>();
@@ -86,6 +90,8 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdModel>();
 	RegisterCommand<CmdSetShading>();
+	RegisterCommand<CmdSetTexture>();
+	RegisterCommand<CmdSetCorrectUV>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
