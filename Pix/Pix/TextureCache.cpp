@@ -30,6 +30,16 @@ void TextureCache::SetTexture(const std::string& fileName)
 	}
 }
 
+void TextureCache::SetUseFilter(bool useFilter)
+{
+	mUseFilter = useFilter;
+}
+
+void TextureCache::SetAddressMode(AddressMode mode)
+{
+	mAddressMode = mode;
+}
+
 X::Color TextureCache::SampleColor(const X::Color& uv) const
 {
 	X::Color color = uv;
@@ -37,7 +47,7 @@ X::Color TextureCache::SampleColor(const X::Color& uv) const
 	{
 		float u = uv.x / uv.w;
 		float v = uv.y / uv.w;
-		color = mCurrentTexture->GetPixel(u, v);
+		color = mCurrentTexture->GetPixel(u, v, mUseFilter, mAddressMode);
 	}
 	return color;
 }

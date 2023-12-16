@@ -18,6 +18,9 @@ float $rotX = 40, 0.1
 float $rotY = 35, 0.1
 float $rotZ = 20, 0.1
 
+bool $correctUV = false
+bool $useFilter = false
+
 SetCameraPosition($camX, $camY, $camZ)
 SetCameraDirection($camDirX, $camDirY, $camDirZ)
 
@@ -30,7 +33,8 @@ PushScaling(1, 1, 1)
 //SetTexture(../Images/checker.bmp)
 //SetTexture(../Images/sponge_bob.bmp)
 SetTexture(../Images/crate.bmp)
-SetCorrectUV(true)
+SetCorrectUV($correctUV)
+SetUseFilter($useFilter)
 
 BeginDraw(triangle, true)
 
@@ -83,3 +87,5 @@ Vertex(1, -1, -1, 1, 0, -1)
 Vertex(1, -1, 1, 1, 1, -1)
 
 EndDraw()
+
+

@@ -31,6 +31,8 @@
 #include "CmdSetShading.h"
 #include "CmdSetTexture.h"
 #include "CmdSetCorrectUV.h"
+#include "CmdSetUseFilter.h"
+#include "CmdSetAddressMode.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -92,6 +94,8 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetShading>();
 	RegisterCommand<CmdSetTexture>();
 	RegisterCommand<CmdSetCorrectUV>();
+	RegisterCommand<CmdSetUseFilter>();
+	RegisterCommand<CmdSetAddressMode>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
